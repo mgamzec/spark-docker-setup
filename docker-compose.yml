@@ -48,7 +48,7 @@ services:
     ports:
       - "8888:8888"  # Jupyter Notebook port
     volumes:
-      - ./notebooks:/home/jovyan/work
+      - ./notebooks:/home/merve/work
     depends_on:
       - spark-master
       - spark-worker-1
